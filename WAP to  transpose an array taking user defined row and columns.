@@ -1,0 +1,8 @@
+import numpy as np
+r,c=map(int,input().split())
+s=[]
+for i  in range(0,r):
+  b=list(map(int,input().split()))
+  s.append(b)
+arr=np.array(s)
+print(arr.T)
