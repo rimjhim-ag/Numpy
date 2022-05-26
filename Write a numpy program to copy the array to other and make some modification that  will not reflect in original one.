@@ -1,0 +1,6 @@
+import numpy as np
+arr=np.array([10,20,30,40])
+a=arr.copy()
+a[0]=80
+print(arr)
+print(a)
