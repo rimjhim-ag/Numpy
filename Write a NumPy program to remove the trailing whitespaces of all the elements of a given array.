@@ -1,4 +1,4 @@
-mport numpy as np
+import numpy as np
 x = np.array([' python exercises ', ' PHP  ', ' java  ', '  C++'], dtype=np.str)
 print("Original Array:")
 print(x)
