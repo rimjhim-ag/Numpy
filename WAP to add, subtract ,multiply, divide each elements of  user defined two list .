@@ -1,0 +1,10 @@
+import numpy as np
+l1=list(map(int,input().split()))
+l2=list(map(int,input().split()))
+m1=np.array(l1)
+m2=np.array(l2)
+out1=np.add(m1,m2)
+out2=np.subtract(m1,m2)
+out3=np.multiply(m1,m2)
+out4=np.divide(m1,m2)
+print(f"addition is {out1},subtraction is {out2},multiply is {out3},division is {out4}")
